@@ -133,21 +133,25 @@
         Solution -
     </p>
     <pre style="color:cornflowerblue; font-size: 20px;">
-    const Max_out_of_three = (A,B,C) => {
-        if(A>B && A>C){
-            return A
+    const findSndSmallest = (x,y,z) => {
+        if (x < y  && x < z){
+            if (y< z){
+            return y;
+            }
         }
-        else if(B>A && B>C){
-            return B
-        }
-        else if(C>A && C>B){
-            return C
             
-        else if(A===B===C){
-            return '-1'
+        else if (y < x &&  y < z)
+        {
+            if (x < z){
+            return x;
+            }
         }
-        else{
-            
+        else if (z < x  && z < y)
+        {
+            if (x < y)
+            {
+            return x
+            }
         }
     };
     </pre>
