@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center ;">Javascript handson 2</h1>
+    <br>
+    <p style="font-size: 20px; font-weight:bold">Question 2.</p>
+    <p style="font-size: 20px;">
+        Check whether the condition is fulfilled or not? <br>
+        Write a program that takes a number and prints whether the number is divisible by 6 and 9 or not.
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const Check_divisibility = (N) => {
+        if(N%6===0 && N%9===0){
+            return('Divisible by both')
+        }
+        else{
+            return('Not Divisible by both')
+        }
+    };
+    </pre>
+    <br>
+    <p style="font-size: 20px; font-weight:bold">Question 3.</p>
+    <p style="font-size: 20px;">
+        Eligible Voter <br>
+        You are given an integer A, denoting the age of a person, and your task is to determine whether he/she is eligible to vote or not.
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const isEligible = (a) => {
+        if(a>=18){
+            return "Eligible for Voting"
+        }
+        else{
+            return "Not Eligible for Voting"
+        }
+    };
+    </pre>
+    <br>
+    <p style="font-size: 20px; font-weight:bold">Question 4.</p>
+    <p style="font-size: 20px;">
+        Find Relation <br>
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const findRelation = (x,y) => {
+        if(x<y){
+            return (x + ' is smaller than ' + y)
+        }
+        else if(x>y){
+              return (x + ' is greater than ' + y)
+        }
+        else if(x==y){
+            return (x + ' is equal to ' + y)
+        }
+        else{
+              
+        }
+    };
+    </pre>
+    <br>
+    <p style="font-size: 20px; font-weight:bold">Question 6.</p>
+    <p style="font-size: 20px;">
+        Get Value <br>
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const getValue = (a) => {
+        if(a===P || a===p){
+            return 'PrepBytes'
+        }
+        else if(a===Z || a===z){
+            return 'Zenith'
+        }
+        else if(a===E || a===e){
+            return 'Expert Coder'
+        }
+        else if(a===D || a===d){
+            return 'Data structure'
+        }
+        else{
+              
+        }
+    };
+    </pre>
+    <br>
+    <p style="font-size: 20px; font-weight:bold">Question 7.</p>
+    <p style="font-size: 20px;">
+        Find the maximum out of three numbers. <br>
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const Max_out_of_three = (A,B,C) => {
+        if(A>B && A>C){
+            return A
+        }
+        else if(B>A && B>C){
+            return B
+        }
+        else if(C>A && C>B){
+            return C
+            
+        else if(A===B===C){
+            return '-1'
+        }
+        else{
+
+        }
+    };
+    </pre>
+    <br>
+    <p style="font-size: 20px; font-weight:bold">Question 8.</p>
+    <p style="font-size: 20px;">
+        Second Smallest <br>
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const Max_out_of_three = (A,B,C) => {
+        if(A>B && A>C){
+            return A
+        }
+        else if(B>A && B>C){
+            return B
+        }
+        else if(C>A && C>B){
+            return C
+            
+        else if(A===B===C){
+            return '-1'
+        }
+        else{
+            
+        }
+    };
+    </pre>
+    <br>
+    <p style="font-size: 20px; font-weight:bold">Question 9.</p>
+    <p style="font-size: 20px;">
+        Check whether the triangle is Acute or Obtuse. <br>
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const Triangle_Check = (A,B,C) => {
+        if(A<90 && B<90 && C<90){
+            return 'acute'
+        }
+        else if(A>90 && B<90 && C<90){
+            return 'obtuse'
+        }
+        else if(A<90 && B>90 && C<90){
+            return 'obtuse'
+        }
+        else if(A<90 && B<90 && C>90){
+            return 'obtuse'
+        }
+        else{
+              
+        }
+    };
+    </pre>
+    <br>
+
+</body>
+</html>
