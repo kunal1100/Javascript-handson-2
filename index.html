@@ -9,6 +9,33 @@
 <body>
     <h1 style="text-align:center ;">Javascript handson 2</h1>
     <br>
+
+    <p style="font-size: 20px; font-weight:bold">Question 2.</p>
+    <p style="font-size: 20px;">
+        Check whether the condition is fulfilled or not? <br>
+        Write a program that takes a number and prints whether the number is divisible by 6 and 9 or not.
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const Calculator = (A, B, C) => 
+    {
+	switch(A){
+	  case"+":
+	    return(B+C)
+	  case"-":
+	    return(B-C)
+	  case"*":
+	    return(B*C)
+	  case"/":
+	    return(B/C)
+	   default:
+	    }
+    };
+    </pre>
+    <br>
+
     <p style="font-size: 20px; font-weight:bold">Question 2.</p>
     <p style="font-size: 20px;">
         Check whether the condition is fulfilled or not? <br>
@@ -71,6 +98,36 @@
     };
     </pre>
     <br>
+
+    <p style="font-size: 20px; font-weight:bold">Question 5.</p>
+    <p style="font-size: 20px;">
+        Find Grades <br>
+    </p>
+    <p style="color:cornflowerblue; font-size: 20px;">
+        Solution -
+    </p>
+    <pre style="color:cornflowerblue; font-size: 20px;">
+    const findGrades = (a) => {
+        if(a<=10){
+            return 'E'
+        }
+        else if(a>=11 && a<=20){
+            return 'D'
+        }
+        else if(a>=21  &&  a<=30){
+            return 'C'
+        }
+        else if(a>=31  &&  a<=40){
+            return 'B'
+        }
+        else if(a>=41  &&  a<=50){
+            return 'A'
+        }
+        else{ 
+        }
+    }
+    </pre>
+    <br>
     <p style="font-size: 20px; font-weight:bold">Question 6.</p>
     <p style="font-size: 20px;">
         Get Value <br>
@@ -80,22 +137,18 @@
     </p>
     <pre style="color:cornflowerblue; font-size: 20px;">
     const getValue = (a) => {
-        if(a===P || a===p){
-            return 'PrepBytes'
-        }
-        else if(a===Z || a===z){
-            return 'Zenith'
-        }
-        else if(a===E || a===e){
-            return 'Expert Coder'
-        }
-        else if(a===D || a===d){
-            return 'Data structure'
-        }
-        else{
-              
-        }
-    };
+    if(a==='P' || a==='p'){
+        return 'PrepBytes'
+    }
+    else if(a==='Z' || a==='z'){
+        return 'Zenith'
+    }
+    else if(a==='E' || a==='e'){
+        return 'Expert Coder'
+    }
+    else{
+        return 'Data structure'
+    }   }
     </pre>
     <br>
     <p style="font-size: 20px; font-weight:bold">Question 7.</p>
@@ -116,7 +169,7 @@
         else if(C>A && C>B){
             return C
             
-        else if(A===B===C){
+        else if(A==B && B==C){
             return '-1'
         }
         else{
